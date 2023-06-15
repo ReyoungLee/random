@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eat</title>
+	<style>
+		body {
+			text-align: center;
+			font-size: 80px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		/* .result {
+
+		} */
+		button {
+			width: 100px;
+			height: 30px;
+			display: inline-block;
+			border-radius: 8px;
+			border-color: transparent;
+			transition: .1s;
+			cursor: pointer;
+			background-color: #1677ff;
+			color: #fff;
+		}
+		button:active {
+			transform: scale(0.9);
+		}
+	</style>
+</head>
+<body>
+	<div class="result">?</div>
+	<div>
+		<button onclick="start()">Start</button>
+		<button onclick="stop()">Stop </button>
+	</div>
+	<script src="./index.js"></script>
+</body>
+</html>
